@@ -1,0 +1,25 @@
+{
+  "name": "hetso_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "joi": "^13.0.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.6",
+    "nconf": "^0.9.1",
+    "stringing": "^1.7.1",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "git+https://github.com/creativearmenia/winston-daily-rotate-file.git"
+  }
+}

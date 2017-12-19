@@ -1,0 +1,27 @@
+{
+    "autoIndex": true,
+    "debug": false,
+    "uri": "mongodb://localhost/hetso_service",
+    "collections": {
+        "bikes" : "bikes",
+        "users" : "users",
+        "stations" : "stations",
+        "rides" : "rides"
+    },
+    "options": {
+        "server": {
+            "socketOptions": {
+                "keepAlive": 1
+            },
+            "auto_reconnect": true,
+            "reconnectTries": 500000,
+            "reconnectInterval": 500,
+            "poolSize": 10
+        },
+        "user": "",
+        "pass": "",
+        "auth": {
+            "authdb": "admin"
+        }
+    }
+}

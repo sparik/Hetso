@@ -1,0 +1,13 @@
+{
+    "port": 3000,
+    "debug": true,
+    "ssl": {
+        "enabled": false,
+        "key": "/certs/server-key.pem",
+        "cert": "/certs/server-cert.pem"
+    },
+    "origins": {
+        "enabled": false,
+        "domains": []
+    }
+}
