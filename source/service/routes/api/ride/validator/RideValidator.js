@@ -9,7 +9,19 @@ class RideValidator {
     static outputRideValidate(obj) {
         return setupValidator(obj, RideValidator.outputRideSchema);
     }
+
+    static endRideValidate(obj) {
+        return setupValidator(obj, RideValidator.endRideSchema);
+    }
 }
+
+RideValidator.endRideSchema = joi.object().keys({
+    end_timestamp : joi.number().integer().required(),
+    end_point : joi.object().keys({
+        station_id : joi.string().required(),
+        spot : joi.number().integer().min(0).required()
+    }).required()
+});
 
 RideValidator.createRideSchema = joi.object().keys({
     bike_id : joi.string().required(),

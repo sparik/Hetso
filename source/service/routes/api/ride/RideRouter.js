@@ -16,7 +16,7 @@ class RideRouter extends CustomRouter {
         this.route("/:rideId")
             .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.GET, HttpMethods.PUT]))
             .get(this.getRide)
-            .put(this.updateRide);
+            .put(this.endRide);
 
         this.router.param("rideId", this.rideIdParamHandler);
     }
@@ -41,7 +41,7 @@ class RideRouter extends CustomRouter {
         response.send();
     }
 
-    updateRide(req, res, next) {
+    endRide(req, res, next) {
         const task = new RideTask(next);
 
         task.onReady((data) => {
@@ -50,7 +50,7 @@ class RideRouter extends CustomRouter {
             response.send();
         });
 
-        task.updateRide(req.ride.ride_id, req.body);
+        task.endRide(req.ride.ride_id, req.body);
     }
 
     addRide(req, res, next) {

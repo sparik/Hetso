@@ -7,7 +7,7 @@ const FileLogRotate = require("winston-daily-rotate-file");
 const WinstonLogger = winston.Logger;
 const WinstonTransports = winston.transports;
 
-const logsFolder = path.join(__dirname, "..", "..", "logs");
+const logsFolder = path.join(__dirname, "..", "..", "..", "logs");
 
 
 initLogger();
