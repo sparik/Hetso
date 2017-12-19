@@ -1,6 +1,12 @@
 # Hetso
 Hetso bike sharing system
 
+## pre-requisites
+MongoDB, Node.js
+
+## populate Mongo with data
+node init/init.js
+
 ## build and run
 npm install
 
