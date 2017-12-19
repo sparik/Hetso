@@ -1,0 +1,26 @@
+[
+  {
+    "username" : "sparik",
+    "password" : "123456",
+    "role" : "admin",
+    "name" : "Sparik Hayrapetyan"
+  },
+  {
+    "username" : "vahe",
+    "password" : "654321",
+    "role" : "admin",
+    "name" : "Vahe Karapetyan"
+  },
+  {
+    "username" : "haso",
+    "password" : "suso",
+    "role" : "tech",
+    "name" : "Hasmik Chalabyan"
+  },
+  {
+    "username" : "suso",
+    "password" : "haso",
+    "role" : "tech",
+    "name" : "Susanna Sargsyan"
+  }
+]

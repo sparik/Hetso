@@ -57,6 +57,10 @@ class HetsoDbManager extends EventEmitter {
 			throw new Error("You can call 'start' function only once.");
 		}
 	}
+
+	stop() {
+		this.mongoConnection.close();
+	}
 }
 
 function Enforce() {

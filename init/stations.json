@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 0,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.16878128051758,
+      "longitude": 44.52173614501953
+    }
+  },
+  {
+    "id": 1,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.20064926147461,
+      "longitude": 44.50796890258789
+    }
+  },
+  {
+    "id": 2,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.225494384765625,
+      "longitude": 44.571380615234375
+    }
+  },
+  {
+    "id": 3,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.17593002319336,
+      "longitude": 44.50983810424805
+    }
+  },
+  {
+    "id": 4,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.169681549072266,
+      "longitude": 44.5179328918457
+    }
+  },
+  {
+    "id": 5,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.17412185668945,
+      "longitude": 44.521453857421875
+    }
+  },
+  {
+    "id": 6,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20014190673828,
+      "longitude": 44.51854705810547
+    }
+  },
+  {
+    "id": 7,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.218223571777344,
+      "longitude": 44.561309814453125
+    }
+  },
+  {
+    "id": 8,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.183712005615234,
+      "longitude": 44.459556579589844
+    }
+  },
+  {
+    "id": 9,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.16587448120117,
+      "longitude": 44.44480514526367
+    }
+  },
+  {
+    "id": 10,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.197628021240234,
+      "longitude": 44.49331283569336
+    }
+  },
+  {
+    "id": 11,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.207054138183594,
+      "longitude": 44.49882888793945
+    }
+  },
+  {
+    "id": 12,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.191585540771484,
+      "longitude": 44.46330261230469
+    }
+  },
+  {
+    "id": 13,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.222599029541016,
+      "longitude": 44.50066375732422
+    }
+  },
+  {
+    "id": 14,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.1973876953125,
+      "longitude": 44.499881744384766
+    }
+  },
+  {
+    "id": 15,
+    "lotsTotal": 4,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.188621520996094,
+      "longitude": 44.59552764892578
+    }
+  },
+  {
+    "id": 16,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.19873046875,
+      "longitude": 44.55801010131836
+    }
+  },
+  {
+    "id": 17,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.1635627746582,
+      "longitude": 44.51762390136719
+    }
+  },
+  {
+    "id": 18,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.15335464477539,
+      "longitude": 44.485069274902344
+    }
+  },
+  {
+    "id": 19,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.19327926635742,
+      "longitude": 44.503204345703125
+    }
+  },
+  {
+    "id": 20,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.19343566894531,
+      "longitude": 44.498958587646484
+    }
+  },
+  {
+    "id": 21,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.200416564941406,
+      "longitude": 44.54135513305664
+    }
+  },
+  {
+    "id": 22,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.21757507324219,
+      "longitude": 44.576236724853516
+    }
+  },
+  {
+    "id": 23,
+    "lotsTotal": 12,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.179561614990234,
+      "longitude": 44.50929641723633
+    }
+  },
+  {
+    "id": 24,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20302963256836,
+      "longitude": 44.54802703857422
+    }
+  },
+  {
+    "id": 25,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.171104431152344,
+      "longitude": 44.46018981933594
+    }
+  },
+  {
+    "id": 26,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.1917839050293,
+      "longitude": 44.50568389892578
+    }
+  },
+  {
+    "id": 27,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.14242172241211,
+      "longitude": 44.520015716552734
+    }
+  },
+  {
+    "id": 28,
+    "lotsTotal": 12,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.18590545654297,
+      "longitude": 44.513206481933594
+    }
+  },
+  {
+    "id": 29,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.213958740234375,
+      "longitude": 44.52314376831055
+    }
+  },
+  {
+    "id": 30,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.18669891357422,
+      "longitude": 44.507938385009766
+    }
+  },
+  {
+    "id": 31,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.199092864990234,
+      "longitude": 44.52851104736328
+    }
+  },
+  {
+    "id": 32,
+    "lotsTotal": 7,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.20111083984375,
+      "longitude": 44.486183166503906
+    }
+  },
+  {
+    "id": 33,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.1810417175293,
+      "longitude": 44.52939224243164
+    }
+  },
+  {
+    "id": 34,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.20937728881836,
+      "longitude": 44.503662109375
+    }
+  },
+  {
+    "id": 35,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.14426040649414,
+      "longitude": 44.485111236572266
+    }
+  },
+  {
+    "id": 36,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.20805740356445,
+      "longitude": 44.46076965332031
+    }
+  },
+  {
+    "id": 37,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.19102096557617,
+      "longitude": 44.51203918457031
+    }
+  },
+  {
+    "id": 38,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.202392578125,
+      "longitude": 44.498409271240234
+    }
+  },
+  {
+    "id": 39,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.19023895263672,
+      "longitude": 44.478546142578125
+    }
+  },
+  {
+    "id": 40,
+    "lotsTotal": 16,
+    "lotsAvailable": 11,
+    "coords": {
+      "latitude": 40.188629150390625,
+      "longitude": 44.514808654785156
+    }
+  },
+  {
+    "id": 41,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.16440963745117,
+      "longitude": 44.51280975341797
+    }
+  },
+  {
+    "id": 42,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.20549774169922,
+      "longitude": 44.5167236328125
+    }
+  },
+  {
+    "id": 43,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.20222473144531,
+      "longitude": 44.465797424316406
+    }
+  },
+  {
+    "id": 44,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.14975357055664,
+      "longitude": 44.510047912597656
+    }
+  },
+  {
+    "id": 45,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.19095993041992,
+      "longitude": 44.53416061401367
+    }
+  },
+  {
+    "id": 46,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.19533920288086,
+      "longitude": 44.511165618896484
+    }
+  },
+  {
+    "id": 47,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.165382385253906,
+      "longitude": 44.504966735839844
+    }
+  },
+  {
+    "id": 48,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.20815658569336,
+      "longitude": 44.52165222167969
+    }
+  },
+  {
+    "id": 49,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.150901794433594,
+      "longitude": 44.518592834472656
+    }
+  },
+  {
+    "id": 50,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.14234924316406,
+      "longitude": 44.532752990722656
+    }
+  },
+  {
+    "id": 51,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20064926147461,
+      "longitude": 44.50209045410156
+    }
+  },
+  {
+    "id": 52,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.207088470458984,
+      "longitude": 44.478946685791016
+    }
+  },
+  {
+    "id": 53,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.197601318359375,
+      "longitude": 44.504886627197266
+    }
+  },
+  {
+    "id": 54,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.18559265136719,
+      "longitude": 44.52226638793945
+    }
+  },
+  {
+    "id": 55,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.215553283691406,
+      "longitude": 44.54844665527344
+    }
+  },
+  {
+    "id": 56,
+    "lotsTotal": 6,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.19001388549805,
+      "longitude": 44.52568817138672
+    }
+  },
+  {
+    "id": 57,
+    "lotsTotal": 7,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.17855453491211,
+      "longitude": 44.50177764892578
+    }
+  },
+  {
+    "id": 58,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.195396423339844,
+      "longitude": 44.49003601074219
+    }
+  },
+  {
+    "id": 59,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.15183639526367,
+      "longitude": 44.47782897949219
+    }
+  },
+  {
+    "id": 60,
+    "lotsTotal": 13,
+    "lotsAvailable": 9,
+    "coords": {
+      "latitude": 40.180389404296875,
+      "longitude": 44.48827362060547
+    }
+  },
+  {
+    "id": 61,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.21643829345703,
+      "longitude": 44.48794174194336
+    }
+  },
+  {
+    "id": 62,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.2066764831543,
+      "longitude": 44.5130729675293
+    }
+  },
+  {
+    "id": 63,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.14662170410156,
+      "longitude": 44.4966926574707
+    }
+  },
+  {
+    "id": 64,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.15148162841797,
+      "longitude": 44.49249267578125
+    }
+  },
+  {
+    "id": 65,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.182369232177734,
+      "longitude": 44.5205192565918
+    }
+  },
+  {
+    "id": 66,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.204227447509766,
+      "longitude": 44.49479675292969
+    }
+  },
+  {
+    "id": 67,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.18968963623047,
+      "longitude": 44.51771545410156
+    }
+  },
+  {
+    "id": 68,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.18980407714844,
+      "longitude": 44.57398986816406
+    }
+  },
+  {
+    "id": 69,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.18295669555664,
+      "longitude": 44.445735931396484
+    }
+  },
+  {
+    "id": 70,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.18173599243164,
+      "longitude": 44.517303466796875
+    }
+  },
+  {
+    "id": 71,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.19635009765625,
+      "longitude": 44.47822189331055
+    }
+  },
+  {
+    "id": 72,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.193180084228516,
+      "longitude": 44.47087860107422
+    }
+  },
+  {
+    "id": 73,
+    "lotsTotal": 3,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.16727066040039,
+      "longitude": 44.4852294921875
+    }
+  },
+  {
+    "id": 74,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.18522644042969,
+      "longitude": 44.50515365600586
+    }
+  },
+  {
+    "id": 75,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.2050895690918,
+      "longitude": 44.50190734863281
+    }
+  },
+  {
+    "id": 76,
+    "lotsTotal": 4,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.16286087036133,
+      "longitude": 44.534358978271484
+    }
+  },
+  {
+    "id": 77,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.18482971191406,
+      "longitude": 44.51772689819336
+    }
+  },
+  {
+    "id": 78,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.22235107421875,
+      "longitude": 44.49323654174805
+    }
+  },
+  {
+    "id": 79,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.16964340209961,
+      "longitude": 44.51375198364258
+    }
+  },
+  {
+    "id": 80,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.14259338378906,
+      "longitude": 44.459999084472656
+    }
+  },
+  {
+    "id": 81,
+    "lotsTotal": 7,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.19713592529297,
+      "longitude": 44.571285247802734
+    }
+  },
+  {
+    "id": 82,
+    "lotsTotal": 3,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.238365173339844,
+      "longitude": 44.5869140625
+    }
+  },
+  {
+    "id": 83,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.17130661010742,
+      "longitude": 44.49333953857422
+    }
+  },
+  {
+    "id": 84,
+    "lotsTotal": 6,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.22503662109375,
+      "longitude": 44.544517517089844
+    }
+  },
+  {
+    "id": 85,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.19340896606445,
+      "longitude": 44.48550033569336
+    }
+  },
+  {
+    "id": 86,
+    "lotsTotal": 4,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.23558044433594,
+      "longitude": 44.50526428222656
+    }
+  },
+  {
+    "id": 87,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.17527389526367,
+      "longitude": 44.44674301147461
+    }
+  },
+  {
+    "id": 88,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.21731948852539,
+      "longitude": 44.55307388305664
+    }
+  },
+  {
+    "id": 89,
+    "lotsTotal": 4,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.23478698730469,
+      "longitude": 44.550594329833984
+    }
+  },
+  {
+    "id": 90,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.187076568603516,
+      "longitude": 44.562843322753906
+    }
+  },
+  {
+    "id": 91,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.17095184326172,
+      "longitude": 44.50797653198242
+    }
+  },
+  {
+    "id": 92,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.17726516723633,
+      "longitude": 44.51203918457031
+    }
+  },
+  {
+    "id": 93,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.17371368408203,
+      "longitude": 44.51119613647461
+    }
+  },
+  {
+    "id": 94,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.18547821044922,
+      "longitude": 44.5261344909668
+    }
+  },
+  {
+    "id": 95,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.2044677734375,
+      "longitude": 44.57564926147461
+    }
+  },
+  {
+    "id": 96,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.176841735839844,
+      "longitude": 44.4937744140625
+    }
+  },
+  {
+    "id": 97,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.19422149658203,
+      "longitude": 44.49449920654297
+    }
+  },
+  {
+    "id": 98,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.176204681396484,
+      "longitude": 44.52574157714844
+    }
+  },
+  {
+    "id": 99,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.18918991088867,
+      "longitude": 44.5219841003418
+    }
+  },
+  {
+    "id": 100,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.183738708496094,
+      "longitude": 44.51218032836914
+    }
+  },
+  {
+    "id": 101,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.17704772949219,
+      "longitude": 44.51761245727539
+    }
+  },
+  {
+    "id": 102,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.18360900878906,
+      "longitude": 44.51543045043945
+    }
+  },
+  {
+    "id": 103,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.180084228515625,
+      "longitude": 44.57002258300781
+    }
+  },
+  {
+    "id": 104,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.18149948120117,
+      "longitude": 44.5125846862793
+    }
+  },
+  {
+    "id": 105,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.19972610473633,
+      "longitude": 44.49616622924805
+    }
+  },
+  {
+    "id": 106,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.1816520690918,
+      "longitude": 44.506507873535156
+    }
+  },
+  {
+    "id": 107,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.201114654541016,
+      "longitude": 44.56515884399414
+    }
+  },
+  {
+    "id": 108,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.204681396484375,
+      "longitude": 44.50538635253906
+    }
+  },
+  {
+    "id": 109,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.17431640625,
+      "longitude": 44.501956939697266
+    }
+  },
+  {
+    "id": 110,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.171180725097656,
+      "longitude": 44.50349807739258
+    }
+  },
+  {
+    "id": 111,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20214080810547,
+      "longitude": 44.491580963134766
+    }
+  },
+  {
+    "id": 112,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.18326950073242,
+      "longitude": 44.5434455871582
+    }
+  },
+  {
+    "id": 113,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.17860794067383,
+      "longitude": 44.505252838134766
+    }
+  },
+  {
+    "id": 114,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.22196960449219,
+      "longitude": 44.53272247314453
+    }
+  },
+  {
+    "id": 115,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.17513656616211,
+      "longitude": 44.51431655883789
+    }
+  },
+  {
+    "id": 116,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.215431213378906,
+      "longitude": 44.582916259765625
+    }
+  },
+  {
+    "id": 117,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.18767547607422,
+      "longitude": 44.510955810546875
+    }
+  },
+  {
+    "id": 118,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.207584381103516,
+      "longitude": 44.54108428955078
+    }
+  },
+  {
+    "id": 119,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.187286376953125,
+      "longitude": 44.51948165893555
+    }
+  },
+  {
+    "id": 120,
+    "lotsTotal": 3,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.13932418823242,
+      "longitude": 44.562652587890625
+    }
+  },
+  {
+    "id": 121,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.22202682495117,
+      "longitude": 44.454551696777344
+    }
+  },
+  {
+    "id": 122,
+    "lotsTotal": 4,
+    "lotsAvailable": 3,
+    "coords": {
+      "latitude": 40.12647247314453,
+      "longitude": 44.47917556762695
+    }
+  },
+  {
+    "id": 123,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.20304489135742,
+      "longitude": 44.53373336791992
+    }
+  },
+  {
+    "id": 124,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.15745544433594,
+      "longitude": 44.52229690551758
+    }
+  },
+  {
+    "id": 125,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20564651489258,
+      "longitude": 44.509368896484375
+    }
+  },
+  {
+    "id": 126,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.20149230957031,
+      "longitude": 44.5232048034668
+    }
+  },
+  {
+    "id": 127,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.17974090576172,
+      "longitude": 44.514991760253906
+    }
+  },
+  {
+    "id": 128,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.17843246459961,
+      "longitude": 44.5208740234375
+    }
+  },
+  {
+    "id": 129,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.174278259277344,
+      "longitude": 44.50538635253906
+    }
+  },
+  {
+    "id": 130,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.180572509765625,
+      "longitude": 44.52400588989258
+    }
+  },
+  {
+    "id": 131,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.18342971801758,
+      "longitude": 44.50836181640625
+    }
+  },
+  {
+    "id": 132,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.213993072509766,
+      "longitude": 44.47087478637695
+    }
+  },
+  {
+    "id": 133,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.206275939941406,
+      "longitude": 44.52765655517578
+    }
+  },
+  {
+    "id": 134,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20743179321289,
+      "longitude": 44.565982818603516
+    }
+  },
+  {
+    "id": 135,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.174560546875,
+      "longitude": 44.564815521240234
+    }
+  },
+  {
+    "id": 136,
+    "lotsTotal": 6,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.18291091918945,
+      "longitude": 44.498443603515625
+    }
+  },
+  {
+    "id": 137,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.210655212402344,
+      "longitude": 44.53230285644531
+    }
+  },
+  {
+    "id": 138,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.18878173828125,
+      "longitude": 44.52951431274414
+    }
+  },
+  {
+    "id": 139,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.18521499633789,
+      "longitude": 44.510189056396484
+    }
+  },
+  {
+    "id": 140,
+    "lotsTotal": 10,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.157569885253906,
+      "longitude": 44.51116180419922
+    }
+  },
+  {
+    "id": 141,
+    "lotsTotal": 11,
+    "lotsAvailable": 8,
+    "coords": {
+      "latitude": 40.15536880493164,
+      "longitude": 44.50117492675781
+    }
+  },
+  {
+    "id": 142,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.20072555541992,
+      "longitude": 44.51351547241211
+    }
+  },
+  {
+    "id": 143,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.211204528808594,
+      "longitude": 44.514522552490234
+    }
+  },
+  {
+    "id": 144,
+    "lotsTotal": 7,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.19321823120117,
+      "longitude": 44.565372467041016
+    }
+  },
+  {
+    "id": 145,
+    "lotsTotal": 9,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.209693908691406,
+      "longitude": 44.509071350097656
+    }
+  },
+  {
+    "id": 146,
+    "lotsTotal": 6,
+    "lotsAvailable": 5,
+    "coords": {
+      "latitude": 40.12888717651367,
+      "longitude": 44.52383041381836
+    }
+  },
+  {
+    "id": 147,
+    "lotsTotal": 9,
+    "lotsAvailable": 7,
+    "coords": {
+      "latitude": 40.20185852050781,
+      "longitude": 44.47557067871094
+    }
+  },
+  {
+    "id": 148,
+    "lotsTotal": 5,
+    "lotsAvailable": 4,
+    "coords": {
+      "latitude": 40.168766021728516,
+      "longitude": 44.50949478149414
+    }
+  },
+  {
+    "id": 149,
+    "lotsTotal": 8,
+    "lotsAvailable": 6,
+    "coords": {
+      "latitude": 40.20677947998047,
+      "longitude": 44.469871520996094
+    }
+  }
+]

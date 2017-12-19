@@ -49,6 +49,10 @@ class RideRouter extends CustomRouter {
     }
 
     endRide(req, res, next) {
+        if (req.ride.user_id != req.user.user_id) {
+            return next(new PermissionError(PermissionError.UNAUTHORIZED));
+        }
+
         const task = new RideTask(next);
 
         task.onReady((data) => {

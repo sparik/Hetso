@@ -10,13 +10,17 @@ class StationRouter extends CustomRouter {
         super();
 
         this.route("/")
-            .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.POST]))
+            .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.POST]),
+                CommonMiddleware.getInstance().verifyJWTToken(),
+                CommonMiddleware.getInstance().onlyAdminRoute())
             .post(this.addStation);
 
         this.route("/:stationId")
             .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.GET, HttpMethods.PUT]))
             .get(this.getStation)
-            .put(this.updateStation);
+            .put(CommonMiddleware.getInstance().verifyJWTToken(),
+                CommonMiddleware.getInstance().onlyAdminRoute(),
+                this.updateStation);
 
         this.router.param("stationId", this.stationIdParamHandler);
     }
