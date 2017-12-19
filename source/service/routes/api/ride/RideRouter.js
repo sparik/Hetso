@@ -4,17 +4,20 @@ const ServiceResponse = require("../../../../utils/response/ServiceResponse");
 const HttpMethods = require("../../../../utils/http/HttpMethods");
 const UserRoles = require("../../../../utils/roles/Roles");
 const RideTask = require("./task/RideTask");
+const PermissionError = require("../../../../errors/PermissionError");
 
 class RideRouter extends CustomRouter {
     constructor() {
         super();
 
         this.route("/")
-            .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.POST]))
+            .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.POST]),
+                CommonMiddleware.getInstance().verifyJWTToken())
             .post(this.addRide);
 
         this.route("/:rideId")
-            .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.GET, HttpMethods.PUT]))
+            .all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.GET, HttpMethods.PUT]),
+                CommonMiddleware.getInstance().verifyJWTToken())
             .get(this.getRide)
             .put(this.endRide);
 
@@ -36,6 +39,10 @@ class RideRouter extends CustomRouter {
 
     getRide(req, res, next) {
         const response = new ServiceResponse(res);
+
+        if (req.user.user_id != req.ride.user_id) {
+            return next(new PermissionError(PermissionError.UNAUTHORIZED));
+        }
 
         response.setOutcome(req.ride);
         response.send();
@@ -60,9 +67,9 @@ class RideRouter extends CustomRouter {
             const response = new ServiceResponse(res);
             response.setOutcome(data);
             response.send();
-        })
+        });
 
-        task.addRide(req.body);
+        task.addRide(req.user.user_id, req.body);
     }
 }
 

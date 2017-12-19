@@ -19,7 +19,9 @@ class RideTask extends CustomTask {
         }
     }
 
-    addRide(data) {
+    addRide(user_id, data) {
+        data["user_id"] = user_id;
+
         const validationResult = RideValidator.createRideValidate(data);
 
         if (validationResult.error) {
@@ -50,7 +52,7 @@ class RideTask extends CustomTask {
             ride_id : rideId
         }, {
             $set : validData
-        }).then(this.validateAndReturnData, this.nativeError);
+        }, {new : true}).then(this.validateAndReturnData, this.nativeError);
     }
 }
 

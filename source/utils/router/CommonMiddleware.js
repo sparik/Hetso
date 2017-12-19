@@ -3,6 +3,10 @@ const Config = require("../../config/Config");
 const ConfigSource = require("../../config/ConfigSource");
 const HttpError = require("../../errors/HttpError");
 const PageNotFound = require("../../errors/PageNotFound");
+const {verifyToken} = require("../jwt/JwtUtils");
+const TokenError = require("../../errors/TokenError");
+const PermissionError = require("../../errors/PermissionError");
+const UserRoles = require("../roles/Roles");
 
 class CommonMiddleware extends CustomRouter {
 
@@ -44,6 +48,38 @@ class CommonMiddleware extends CustomRouter {
         res.status(resStatus);
         res.json(errorResponse);
     };
+
+    verifyJWTToken() {
+        return (req, res, next) => {
+            const token = req.headers["authorization"];
+
+            if (token == undefined) {
+                next(new TokenError(TokenError.NOT_PROVIDED, "token not provided"));
+                return;
+            }
+
+            verifyToken(token, (err, userData, payload) => {
+                if (err) {
+                    next(err);
+                    return;
+                }
+                req.user = userData;
+                req.jwtPayload = payload;
+                next();
+            });
+        };
+    }
+
+    onlyAdminRoute() {
+        return (req, res, next) => {
+            if (req.user.role != UserRoles.ADMIN) {
+                next(new PermissionError(PermissionError.UNAUTHORIZED));
+            }
+            else {
+                next();
+            }
+        }
+    }
 
     supportedHttpMethods(methods) {
         return (req, res, next) => {

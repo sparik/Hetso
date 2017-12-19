@@ -40,6 +40,9 @@ class LoginTask extends CustomTask {
     		}
     		userData.comparePassword(loginData.password, (err, isMatch) => {
     			if (err) {
+    				return this.nativeError(err);
+				}
+    			if (!isMatch) {
     				return this.nativeError(new LoginError(LoginError.FAILED, "Wrong username or password."));
     			}
     			this.generateJwtToken(loginData, userData);

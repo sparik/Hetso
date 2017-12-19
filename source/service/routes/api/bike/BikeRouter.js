@@ -10,13 +10,17 @@ class BikeRouter extends CustomRouter {
 		super();
 
 		this.route("/")
-			.all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.POST]))
+			.all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.POST]),
+				CommonMiddleware.getInstance().verifyJWTToken(),
+				CommonMiddleware.getInstance().onlyAdminRoute())
 			.post(this.addBike);
 
 		this.route("/:bikeId")
 			.all(CommonMiddleware.getInstance().supportedHttpMethods([HttpMethods.GET, HttpMethods.PUT]))
 			.get(this.getBike)
-			.put(this.updateBike);
+			.put(CommonMiddleware.getInstance().verifyJWTToken(),
+				CommonMiddleware.getInstance().onlyAdminRoute(),
+				this.updateBike);
 
 		this.router.param("bikeId", this.bikeIdParamHandler);
 	}

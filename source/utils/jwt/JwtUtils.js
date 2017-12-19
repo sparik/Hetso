@@ -2,6 +2,8 @@ const jwt = require("jsonwebtoken");
 const stringing = require("stringing");
 const ConfigSource = require("../../config/ConfigSource");
 const Config = require("../../config/Config");
+const HetsoDbManager = require("../../db/HetsoDbManager");
+const TokenError = require("../../errors/TokenError");
 
 const algorithm = "HS256";
 const tokenType = "Bearer";
@@ -19,7 +21,6 @@ function generateToken(user_id, user, loginRequest, callback) {
         algorithm : algorithm,
         audience : "hetso",
         subject : user_id,
-        role : user.role,
         expiresIn : exp,
         issuer : "hetso"
     };
@@ -60,4 +61,34 @@ function generateToken(user_id, user, loginRequest, callback) {
     });
 }
 
-module.exports = {generateToken}
+function verifyToken(token, callback) {
+    const jwtDecodeOptions = {
+        algorithms : [algorithm],
+        ignoreExpiration : false,
+        ignoreNotBefore : false
+    };
+
+    const payload = jwt.decode(token, {complete : true});
+
+    jwt.verify(token, secret, jwtDecodeOptions, (err, decoded) => {
+        if (err) {
+            if (err.name === "TokenExpiredError") {
+                callback(new TokenError(TokenError.EXPIRED, "token expired."));
+            }
+            else if (err.name === "JsonWebTokenError") {
+                callback(new TokenError(TokenError.INVALID, "token invalid data."));
+            }
+            else {
+                callback(new TokenError(TokenError.INVALID, "token invalid data."));
+            }
+        }
+        else {
+            UserModel = HetsoDbManager.getInstance().userModel;
+            UserModel.findOne({user_id : decoded.sub}).then((userData) => {
+                callback(null, userData, payload);
+            }, callback);
+        }
+    });
+}
+
+module.exports = {generateToken, verifyToken}
