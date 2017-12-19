@@ -6,12 +6,16 @@ const getConfig = Config.getInstance().accessPointConfigsFromSource(ConfigSource
 
 const RideSchema = new mongoose.Schema({
 	ride_id : {
-		type : Number,
+		type : String,
+		required : true
+	},
+	bike_id : {
+		type : String,
 		required : true
 	},
 	start_point : {
 		station_id : {
-			type : Number,
+			type : String,
 			required : true
 		},
 		spot : {
@@ -21,7 +25,7 @@ const RideSchema = new mongoose.Schema({
 	},
 	end_point : {
 		station_id : {
-			type : Number,
+			type : String,
 		},
 		spot : {
 			type : Number,
@@ -36,9 +40,20 @@ const RideSchema = new mongoose.Schema({
 		required : false
 	},
 	user_id : {
-		type : Number,
+		type : String,
 		required : true
 	}
+});
+
+RideSchema.pre('validate', function(next) {
+    var ride = this;
+
+    if (ride.isNew && ride.ride_id == null)
+    {
+        ride.ride_id = `ride|${ride.id}`;
+    }
+
+    next();
 });
 
 RideSchema.set("autoIndex", getConfig("autoIndex"));

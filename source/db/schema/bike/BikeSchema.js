@@ -6,7 +6,7 @@ const getConfig = Config.getInstance().accessPointConfigsFromSource(ConfigSource
 
 const BikeSchema = new mongoose.Schema({
 	bike_id : {
-		type : Number,
+		type : String,
 		required : true
 	},
 	status : {
@@ -15,9 +15,20 @@ const BikeSchema = new mongoose.Schema({
 		enum : ["in_station", "in_ride", "in_repair", "out_of_order"]
 	},
 	location : {
-		station_id : Number,
+		station_id : String,
 		spot : Number
 	}
+});
+
+BikeSchema.pre('validate', function(next) {
+    var bike = this;
+
+    if (bike.isNew && bike.bike_id == null)
+    {
+        bike.bike_id = `bike|${bike.id}`;
+    }
+
+    next();
 });
 
 

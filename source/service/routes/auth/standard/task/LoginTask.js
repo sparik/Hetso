@@ -17,7 +17,7 @@ class LoginTask extends CustomTask {
 		this.UserModel = HetsoDbManager.getInstance().userModel;
 	}
 
-	tryLogin(loginData, ip) {
+	tryLogin(loginData) {
 
         StandardAuthValidator.loginUserValidate(loginData, (error, validLoginData) =>
         {

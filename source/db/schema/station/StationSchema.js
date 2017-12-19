@@ -6,7 +6,7 @@ const getConfig = Config.getInstance().accessPointConfigsFromSource(ConfigSource
 
 const StationSchema = new mongoose.Schema({
 	station_id : {
-		type : Number,
+		type : String,
 		required : true
 	},
 	station_name : {
@@ -25,9 +25,21 @@ const StationSchema = new mongoose.Schema({
 	},
 	spots : [{
 		status : {
+			type : String,
 			enum : ["has_bike", "free", "out_of_order"]
 		}
 	}]
+});
+
+StationSchema.pre('validate', function(next) {
+    var station = this;
+
+    if (station.isNew && station.station_id == null)
+    {
+        station.station_id = `station|${station.id}`;
+    }
+
+    next();
 });
 
 StationSchema.set("autoIndex", getConfig("autoIndex"));

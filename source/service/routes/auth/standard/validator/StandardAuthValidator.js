@@ -5,7 +5,7 @@ const setupValidator = require("../../../../../utils/validator/setupValidator");
 class StandardAuthValidator {
 
     static loginUserValidate(obj, callback) {
-        setupValidator(obj, StandardAuthValidator.loginUserSchema, callback);
+        setupValidator(obj, StandardAuthValidator.createBikeSchema, callback);
     }
 
     static signupUserValidate(obj, callback) {
@@ -17,7 +17,7 @@ class StandardAuthValidator {
     }
 }
 
-StandardAuthValidator.loginUserSchema = joi.object().keys({
+StandardAuthValidator.createBikeSchema = joi.object().keys({
         username : joi.string().regex(/^[a-z0-9]{4,30}$/).required(),
         password : joi.string().required(),
         scope : joi.array().items(joi.string()).optional(),

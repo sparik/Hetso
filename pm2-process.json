@@ -1,0 +1,16 @@
+{
+    "apps" : [
+        {
+            "name" : "hetso-service",
+            "script" : "./source/HetsoService.js",
+            "watch" : [
+                "./source",
+                "./configs",
+                "./certs"
+            ],
+            "watch_options": {
+                "usePolling": true
+            }
+        }
+    ]
+}

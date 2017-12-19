@@ -1,4 +1,3 @@
-"use strict";
 const EventEmitter = require("events");
 const Config = require("../config/Config");
 const ConfigSource = require("../config/ConfigSource");
@@ -17,7 +16,7 @@ class HetsoDbManager extends EventEmitter {
 		super();
 
 		if (enforce != Enforce) {
-			throw new Error("Error: Instantiation failed: Use SmsDbManager.getInstance() instead of new.");
+			throw new Error("Error: Instantiation failed: Use HetsoDbManager.getInstance() instead of new.");
 		}
 
 		this.getConfig = Config.getInstance().accessPointConfigsFromSource(ConfigSource.HETSO_DB);
